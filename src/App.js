@@ -49,6 +49,28 @@ class App extends Component {
               </div>
             </div>
           </a>
+          <a href="https://www.w3schools.com/default.asp">
+            <div className="webCard">
+              <img className = "webCardPicture" src={require('./testSite2.png')} />
+              <div className="webCardTitle">
+                W3Schools Online Web Tutorials
+              </div>
+              <div className="webCardBody">
+                Reference materials for HTML, CSS, and JavaScript are organized well on this website. There are also tutorials for many of the functions of each language, as well as templates for websites.
+              </div>
+            </div>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/">
+            <div className="webCard">
+              <img className = "webCardPicture" src={require('./testSite3.png')} />
+              <div className="webCardTitle">
+                Mozilla Developer Network
+              </div>
+              <div className="webCardBody">
+                Reference materials for HTML, CSS, JavaScript, and more are available through Mozilla's Developer Network. Mozilla also has a collection of web development tutorials, and have multiple developer tools available for website inspection and debugging.
+              </div>
+            </div>
+          </a>
         </div>
       );
     } else {
